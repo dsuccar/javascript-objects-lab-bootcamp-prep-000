@@ -20,9 +20,6 @@ var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
 
 
 
-delete newObj.obj
-
-}
 
 //var obj = { foo: 'bar' }
 
