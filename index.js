@@ -11,4 +11,8 @@ obj[key] = value
 
 destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)
 
-deleteFromObjectByKey(obj, key)
+
+function deleteFromObjectByKey(obj, key){
+  delete obj.key;
+return
+}
