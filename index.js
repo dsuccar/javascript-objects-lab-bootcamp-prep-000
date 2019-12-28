@@ -1,5 +1,5 @@
 var obj = { prop: 1 }
-var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
+
 
 function updateObjectWithKeyAndValue(obj, key, value) {
 
@@ -23,4 +23,5 @@ return obj
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key]
   return object
+}
 }
